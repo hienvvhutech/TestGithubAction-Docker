@@ -25,5 +25,5 @@ jobs:
           context: .
           push: true
           tags: |
-            hienvvhutech/testgithubaction-docker:latest
-            hienvvhutech/testgithubaction-docker:${{ github.sha }}
+            hienvvcode/testgithubaction-docker:latest
+            hienvvcode/testgithubaction-docker:${{ github.sha }}
